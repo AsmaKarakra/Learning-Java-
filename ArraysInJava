@@ -1,0 +1,48 @@
+//Arrays in Java 
+
+// special strucutre inside Java which can store information 
+
+public class App {
+	public static void main(String[] args) {
+		
+		String [] friends = { "Jim", "Mark", "Eric" } //use curly brackes for array in java
+		
+		// < String > < [] >  < name of array > = < { "value1", "value2", } > 
+		
+		// the [] tells java we wannt to create an array 
+		
+		// to print out the first item
+		
+	System.out.println(friends[0]); //this will print out "Jim" }
+	
+	
+	
+	
+	// to access attributes of array such as length 
+	
+	System.out.println(friends.length()); // this will output 3 because there are 3 elements within our array 
+	
+	
+	// we can also modify the value by acessing it 
+	
+	friends[0] = "Karen"; //use this as a normal variable and we can change what is in the array 
+	
+	//Sometimes we dont have elements of our array up front 
+	
+	String [] friends = new String[] //need to tell java how many elements we want to put inside of it 
+	
+	String [] friends = new String[3] // we are now telling java that we want 3 elements inside the array 
+	
+	//now we can tell it what elements we want 
+	
+	// to populate the array, we can do the following: 
+	
+	String [] friends = new String[3]; 
+	
+	friends[0] = "Mike"; 
+	friends[1] = "Jim"; 
+	friends[2] = "Karen"; 
+	
+	System.out.print(friends[1]); //this will now print "mike" 
+} 
+}
