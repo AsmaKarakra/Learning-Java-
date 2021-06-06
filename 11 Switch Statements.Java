@@ -133,6 +133,12 @@ public class App {
             case 6:
                 dayName = "Saturday";
                 break;
+			
+			
+			// if none of cases are true, we can set a default to catch user input errors:
+			
+			default: DayName = "Invalid Day Number";
+			break; 
 
         }
 
